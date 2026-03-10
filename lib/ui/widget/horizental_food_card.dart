@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../model/food.dart';
+import '../../../model/food.dart';
 
 class HorizontalFoodCard extends StatelessWidget {
   final Color backGroundColor;
