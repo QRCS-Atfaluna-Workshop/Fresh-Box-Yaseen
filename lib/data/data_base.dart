@@ -35,12 +35,74 @@ class DataBase {
         time: 3,
         price: 20,
       ),
+      Food(
+        name: "Fresh Sandwitch",
+        imagePath: 'assets/images/sandwich.png',
+        review: 4.5,
+        time: 3,
+        price: 12,
+        description: 'Authentic Japanese Fresh Sandwitch'
+      ),
     ];
   }
 
   List<Food> getRecommendedFoods() {
     return [
       Food(
+        name: "Fresh Veg-Salad",
+        imagePath: 'images/recommended1.png',
+        review: 4.5,
+        discount: 20,
+        description: 'Fresh Salad with Green berry',
+        time: 3,
+        price: 20,
+      ),
+      Food(
+        name: "Veg Biryani",
+        imagePath: 'images/recommended2.png',
+        description: 'Fresh Salad with Green berry',
+        review: 4.5,
+        discount: 20,
+        time: 3,
+        price: 20,
+      ),
+      Food(
+        name: "Fresh Veg-Salad",
+        imagePath: 'images/recommended3.png',
+        review: 4.5,
+        discount: 20,
+        description: 'Fresh Salad with Green berry',
+        time: 3,
+        price: 20,
+      ),
+ Food(
+        name: "Fresh Veg-Salad",
+        imagePath: 'images/recommended1.png',
+        review: 4.5,
+        discount: 20,
+        description: 'Fresh Salad with Green berry',
+        time: 3,
+        price: 20,
+      ),
+      Food(
+        name: "Veg Biryani",
+        imagePath: 'images/recommended2.png',
+        description: 'Fresh Salad with Green berry',
+        review: 4.5,
+        discount: 20,
+        time: 3,
+        price: 20,
+      ),
+      Food(
+        name: "Fresh Veg-Salad",
+        imagePath: 'images/recommended3.png',
+        review: 4.5,
+        discount: 20,
+        description: 'Fresh Salad with Green berry',
+        time: 3,
+        price: 20,
+      ),
+ Food(
         name: "Fresh Veg-Salad",
         imagePath: 'images/recommended1.png',
         review: 4.5,
